@@ -29,6 +29,7 @@ namespace Web_Api_Project
         {
 
             services.AddControllers();
+            services.AddSingleton<ValuesHolder>();
             services.AddSingleton<WeatherForecast>();
 
 

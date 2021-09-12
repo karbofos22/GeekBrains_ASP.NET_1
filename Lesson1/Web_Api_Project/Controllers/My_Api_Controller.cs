@@ -28,7 +28,7 @@ namespace Web_Api_Project.Controllers
         [HttpGet]
         public IActionResult Read()
         {
-            return Ok(_holder.Values);
+            return Ok(_holder.Get());
         }
 
         [HttpPut]
